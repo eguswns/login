@@ -40,13 +40,13 @@ const SignUp = () => {
     <div className="min-h-screen bg-[#7c7c7c] flex items-center justify-center">
       <form
         onSubmit={handleSubmit(onSubmit)}
-        className="bg-white w-[570px] h-[410px] flex flex-col justify-center rounded-[16px]"
+        className="bg-white w-[570px] flex flex-col justify-center rounded-[16px]"
       >
-        <h2 className="text-[24px] text-center font-semibold mb-[40px]">
+        <h2 className="text-[24px] text-center font-semibold mb-[40px] mt-[40px]">
           Sign Up
         </h2>
 
-        <div className="mb-[10px] flex items-center justify-center">
+        <div className="mb-[10px] flex flex-col items-center justify-center">
           <Input
             type="email"
             placeholder="Email"
@@ -64,7 +64,7 @@ const SignUp = () => {
           )}
         </div>
 
-        <div className="mb-[10px] flex items-center justify-center">
+        <div className="mb-[10px] flex flex-col items-center justify-center">
           <Input
             type="password"
             placeholder="Password"
@@ -81,7 +81,7 @@ const SignUp = () => {
           )}
         </div>
 
-        <div className="mb-[20px] flex items-center justify-center">
+        <div className="mb-[20px] flex flex-col items-center justify-center">
           <Input
             type="password"
             placeholder="Confirm Password"
@@ -106,7 +106,7 @@ const SignUp = () => {
             Sign up
           </Button>
         </div>
-        <div className="flex gap-[10px] justify-center items-center">
+        <div className="flex gap-[10px] justify-center items-cente mb-[40px]">
           <p className="text-[#999] text-[17px]">Have an account?</p>
           <Button
             type="button"
